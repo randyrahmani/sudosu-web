@@ -26,9 +26,16 @@ h1 {
   font-size: 3rem;
 }
 
+main {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 54rem;
+  padding-inline: 1rem;
+}
+
 main img {
   display: block;
-  width: min(52rem, 100vw);
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
