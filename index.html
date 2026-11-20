@@ -5,10 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>sudosu</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@400&family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="styles/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js" defer></script>
   <script src="scripts/script.js" defer></script>
 </head>
 <body>
@@ -22,11 +21,17 @@
     <p>
         Currently based in Melbourne, Australia. <br>
     </p>
-    <img src="assets/melbourne_raw_48MP.jpg" alt="Image of Melbourne, 48MP taken on an iPhone 16 Pro Max"/>
+    <a class="photo-link" href="assets/melbourne_raw_48MP.jpg" aria-label="Enlarge photo of Melbourne" aria-haspopup="dialog">
+      <img src="assets/melbourne_raw_48MP.jpg" alt="Image of Melbourne, 48MP taken on an iPhone 16 Pro Max"/>
+    </a>
     <p>
         Fonts used: <br>
         - Plus Jakarta Sans <br>
         - Maitree
+    </p>
+    <p>
+        Libraries used: <br>
+        - GLightbox
     </p>
   </main>
 </body>
